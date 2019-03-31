@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LengkapiData"></activity>
         <activity
             android:name=".MainPenumpang"
-            android:label="@string/title_activity_main_penumpang"></activity>
+            android:label="@string/title_activity_main_penumpang" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">
             <intent-filter>
